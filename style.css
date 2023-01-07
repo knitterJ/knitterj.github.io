@@ -1,26 +1,46 @@
 * {
   box-sizing: border-box;
-  transition: 0.35s ease;
+  /* transitions related */
+  /* transition: 0.35s ease; */
+
 }
+
+body {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  line-height: 28px;
+  background-size: cover;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
 .rela-block {
-  display: block;
+  /* display: block; */
   position: relative;
   margin: auto;
-  top: ;
-  left: ;
-  right: ;
-  bottom: ;
 }
-.rela-inline {
+
+.page {
+  scale: 0.99;
+  width: 90%;
+  max-width: 900px;
+  height: 700px;
+  margin: 20px auto 10px auto;
+  background-color: #fff;
+  box-shadow: 6px 10px 28px 10px rgba(0,0,0,0.4);
+}
+
+/* ???? */
+/* .rela-inline {
   display: inline-block;
   position: relative;
   margin: auto;
-  top: ;
-  left: ;
-  right: ;
-  bottom: ;
-}
-.floated {
+} */
+
+/* transitions related */
+/* .floated {
   display: inline-block;
   position: relative;
   margin: false;
@@ -29,7 +49,11 @@
   right: ;
   bottom: ;
   float: left;
-}
+} */
+
+
+
+/* Knitter Jacob podpis header */
 .abs-center {
   display: false;
   position: absolute;
@@ -40,19 +64,14 @@
   bottom: false;
   transform: translate(-50%, -50%);
   text-align: center;
-  width: 88%;
-}
-body {
-  font-family: 'Open Sans';
-  font-size: 18px;
-  letter-spacing: 0px;
+  font-family: 'Montserrat';
   font-weight: 400;
-  line-height: 28px;
-  background: url("http://kingofwallpapers.com/leaves/leaves-016.jpg") right no-repeat;
-  background-size: cover;
 }
-body:before {
-  content: "";
+
+
+
+/* ??? */
+/* body:before {
   display: false;
   position: fixed;
   margin: 0;
@@ -61,7 +80,7 @@ body:before {
   right: 0;
   bottom: 0;
   background-color: rgba(255,255,255,0.92);
-}
+} */
 .caps {
   text-transform: uppercase;
 }
@@ -79,6 +98,8 @@ h2 {
   line-height: 40px;
   color: #000;
 }
+
+/* Job #1, ...  */
 h3 {
   font-family: 'Open Sans';
   font-size: 21px;
@@ -87,13 +108,7 @@ h3 {
   line-height: 28px;
   color: #000;
 }
-.page {
-  width: 90%;
-  max-width: 1200px;
-  margin: 80px auto;
-  background-color: #fff;
-  box-shadow: 6px 10px 28px 0px rgba(0,0,0,0.4);
-}
+
 .top-bar {
   height: 220px;
   background-color: #848484;
@@ -107,12 +122,12 @@ h3 {
   left: calc(350px + 5%);
   right: 0;
   bottom: 0;
-  height: 120px;
+  height: 200px;
   text-align: center;
   font-family: 'Raleway';
   font-size: 58px;
   letter-spacing: 8px;
-  font-weight: 100;
+  font-weight: 400;
   line-height: 60px;
 }
 .name div {
@@ -125,11 +140,15 @@ h3 {
   top: 60px;
   left: 5%;
   right: false;
-  bottom: 0;
+  bottom: 10px;
   width: 350px;
   background-color: #f7e0c1;
   padding: 320px 30px 50px;
+  padding-left: 20px;
+  padding-right: 7px;
 }
+
+
 .mugshot {
   display: false;
   position: absolute;
@@ -179,69 +198,92 @@ h3 {
   font-weight: 400;
   line-height: 58.333333333333336px;
 }
+
+/* icons related styling */
 .social {
   padding-left: 60px;
-  margin-bottom: 20px;
-  cursor: pointer;
+  margin-bottom: 50px;
 }
 .social:before {
   content: "";
-  display: false;
+  /* display: false; */
   position: absolute;
-  margin: false;
-  top: -4px;
+  /* margin: false; */
+  top: -10px;
   left: 10px;
-  right: false;
-  bottom: false;
+  /* right: false; */
+  /* bottom: false; */
   height: 35px;
   width: 35px;
   background-size: cover !important;
+  
 }
+
+
+
 .social.twitter:before {
   background: url("https://cdn3.iconfinder.com/data/icons/social-media-2026/60/Socialmedia_icons_Twitter-07-128.png") center no-repeat;
 }
-.social.pinterest:before {
-  background: url("https://cdn3.iconfinder.com/data/icons/social-media-2026/60/Socialmedia_icons_Pinterest-23-128.png") center no-repeat;
-}
 .social.linked-in:before {
+  
   background: url("https://cdn3.iconfinder.com/data/icons/social-media-2026/60/Socialmedia_icons_LinkedIn-128.png") center no-repeat;
 }
+
+
 .side-header {
   font-family: 'Open Sans';
   font-size: 18px;
   letter-spacing: 4px;
   font-weight: 600;
   line-height: 28px;
-  margin: 60px auto 10px;
+  margin: 30px auto 10px;
   padding-bottom: 5px;
+}
+.side-header:after{
+  content: "";
+  display: block;
+  padding-top: 3px;
+  width: 60%;
   border-bottom: 1px solid #888;
 }
 .list-thing {
-  padding-left: 25px;
+  padding-left: 5px;
   margin-bottom: 10px;
 }
 .content-container {
-  margin-right: 0;
+  margin-left: 390px;
   width: calc(95% - 350px);
   padding: 25px 40px 50px;
+  overflow-x: hidden;
+  height: 65%;
+  position: relative;
 }
 .content-container > * {
   margin: 0 auto 25px;
+  
 }
 .content-container > h3 {
   margin: 0 auto 5px;
 }
 .content-container > p.long-margin {
   margin: 0 auto 50px;
+  
 }
 .title {
   width: 80%;
   text-align: center;
 }
+
+
 .separator {
-  width: 240px;
+  width: 120px;
   height: 2px;
   background-color: #999;
+}
+
+.info{
+  overflow-y: auto;
+  max-height: 110%;
 }
 .greyed {
   background-color: #ddd;
