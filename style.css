@@ -23,7 +23,6 @@ body {
 }
 
 .page {
-  scale: 0.99;
   width: 90%;
   max-width: 900px;
   height: 700px;
@@ -188,9 +187,9 @@ h3 {
   position: absolute;
   margin: false;
   top: 58%;
-  left: ;
+  /* left: ; */
   right: 16%;
-  bottom: ;
+  /* bottom: ; */
   cursor: pointer;
   font-family: "Montserrat";
   font-size: 55px;
@@ -297,6 +296,32 @@ h3 {
   line-height: 28px;
 }
 @media screen and (max-width: 1150px) {
+
+
+
+  body {
+    font-family: 'Open Sans';
+    font-size: 22px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    line-height: 28px;
+    background-size: cover;
+    margin-top: 0px;
+  }
+
+  .page{
+    height: 1100px;
+  }
+
+  .content-container {
+    margin-left: 390px;
+    width: calc(95% - 350px);
+    padding: 25px 40px 50px;
+    overflow-x: hidden;
+    height: 75%;
+    position: relative;
+  }
+
   .name {
     color: #fff;
     font-family: 'Raleway';
