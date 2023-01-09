@@ -132,33 +132,43 @@ h3 {
 .name div {
   width: 94%;
 }
+
 .side-bar {
-  display: false;
   position: absolute;
-  margin: false;
-  top: 60px;
-  left: 5%;
-  right: false;
+  top: 20px;
   bottom: 10px;
-  width: 350px;
-  background-color: #f7e0c1;
-  padding: 320px 30px 50px;
   padding-left: 20px;
   padding-right: 7px;
+  margin-left: 20px;
+  bottom: 10px;
+  padding: 320px 0px 50px;
+  width: 350px;
+  background-color: #f7e0c1;
 }
 
 
+/* I'm not able to move my svg when it's in default position
+If you're not able to move your SVG element when it's in the default position, you may need to set the position property to either relative, absolute, fixed, or sticky. Additionally, you can use the top, right, bottom, and left CSS properties to adjust the position of the element.
+Why my svg lands in the same position if it's either in relative or absolute position?
+If your SVG element lands in the same position regardless of whether it's in relative or absolute position, it may be because the element is positioned relative to its nearest positioned ancestor or the viewport 
+(So basically absolute positioning - an element is positioned relative to its nearest positioned ancestor) if there is no ancestor. You may need to set the position property to either relative, absolute, fixed, or sticky in order to move the element. Additionally, you can use the top, right, bottom, and left CSS properties to adjust the position of the element. */
+/* No, position: relative; is not equal to the default (relative) position. The default position is relative to the parent container, while relative positioning means that an element is positioned relative to its normal position. */
 .mugshot {
-  display: false;
   position: absolute;
-  margin: false;
   top: 50px;
   left: 70px;
-  right: false;
-  bottom: false;
-  height: 210px;
-  width: 210px;
+} 
+
+.info {
+  left: 5%;
+  height: 100%;
+  overflow-y: auto;
+  padding-left: 20px;
+  padding-right: 7px;
+  padding: 0px 30px 50px;
 }
+
+
 .mugshot .logo {
   margin: -23px;
 }
@@ -187,9 +197,7 @@ h3 {
   position: absolute;
   margin: false;
   top: 58%;
-  /* left: ; */
   right: 16%;
-  /* bottom: ; */
   cursor: pointer;
   font-family: "Montserrat";
   font-size: 55px;
@@ -205,29 +213,59 @@ h3 {
 }
 .social:before {
   content: "";
-  /* display: false; */
   position: absolute;
-  /* margin: false; */
   top: -10px;
   left: 10px;
-  /* right: false; */
-  /* bottom: false; */
   height: 35px;
   width: 35px;
   background-size: cover !important;
-
 }
-
 
 
 .social.twitter:before {
   background: url("https://cdn3.iconfinder.com/data/icons/social-media-2026/60/Socialmedia_icons_Twitter-07-128.png") center no-repeat;
 }
-.social.linked-in:before {
 
+.social.linked-in:before {
   background: url("https://cdn3.iconfinder.com/data/icons/social-media-2026/60/Socialmedia_icons_LinkedIn-128.png") center no-repeat;
 }
 
+.social.linked-in:hover:before {
+  background: url("images/linkedincolor.png") center no-repeat;
+}
+
+
+.flag.poland:before {
+  background: url("images/poland.png") center no-repeat;
+  scale: 1.4;
+}
+
+.flag.poland.active:before {
+  background: url("images/poland.png") center no-repeat;
+  scale: 1.4;
+  border: 2px solid black;
+}
+
+
+.flag{
+  padding-left: 70px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  
+}
+
+.flag:before {
+  content: "";
+  /* display: false; */
+  position: absolute;
+  /* margin: false; */
+  top: 5px;
+  left: 10px;
+  /* right: false; */
+  /* bottom: false; */
+  height: 29px;
+  width: 35px;
+}
 
 .side-header {
   font-family: 'Open Sans';
@@ -280,10 +318,6 @@ h3 {
   background-color: #999;
 }
 
-.info{
-  overflow-y: auto;
-  max-height: 110%;
-}
 .greyed {
   background-color: #ddd;
   width: 100%;
@@ -296,7 +330,6 @@ h3 {
   line-height: 28px;
 }
 @media screen and (max-width: 1150px) {
-
 
 
   body {
