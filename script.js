@@ -1,8 +1,12 @@
 
-const relaBlockPolandFlag = document.querySelectorAll('a.rela-block.flag.poland');
+const relaBlockFlag = document.querySelectorAll('.languages img');
 let attr = document.querySelectorAll('a[language]');
-let tytul = document.querySelector("p.rela-block.caps.side-header.languages");
+let languages = document.querySelector("p.rela-block.caps.side-header.languages-top-bar");
+let unis = document.querySelector("p.rela-block.caps.side-header.languages");
 
+// let profile = document.querySelector("rela-block.caps.greyed.profile");
+// let longmargin = document.querySelector("p.rela-block.caps.side-header.languages-top-bar");
+// let profiledescr = document.querySelector("long-margin");
 
 
 fetch('localisation/translations.json')
@@ -11,11 +15,10 @@ fetch('localisation/translations.json')
     let localisationData = data;
 
     // default values
-    tytul.innerHTML = localisationData.en.title;
+    languages.innerHTML = localisationData.en.sidebar.languages;
+    
 
-
-    relaBlockPolandFlag.forEach(flag => {
-
+    relaBlockFlag.forEach(flag => {
         // Add a click event listener to each flag
         flag.addEventListener('click', function() {
         // Get the active flag from the document.querySelector
@@ -26,7 +29,7 @@ fetch('localisation/translations.json')
         //podepnij pod konkretny obrazek (flag) i kliknięcie, konkretne zachowanie
         // zrobimy to na podstawie atrybutu <img language="en">
         let attr = document.querySelector('.active').getAttribute("language");
-        tytul.textContent = localisationData[attr].title;
+        languages.textContent = localisationData[attr].sidebar.languages;
         //tutaj dodawaj dalszy content typu
         });
     });

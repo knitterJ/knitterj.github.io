@@ -25,7 +25,7 @@ body {
 .page {
   width: 90%;
   max-width: 900px;
-  height: 780px;
+  height: 730px;
   margin: 30px auto 10px auto;
   background-color: #fff;
   box-shadow: 6px 10px 28px 10px rgba(0,0,0,0.4);
@@ -85,9 +85,11 @@ body {
 }
 .justified {
   text-align: justify;
+  padding-left: 5px;
 }
 p.light {
   color: #777;
+  margin: 5px; 
 }
 h2 {
   font-family: 'Open Sans';
@@ -110,8 +112,8 @@ h3 {
 
 .top-bar {
   height: 220px;
-  background-color: #848484;
-  color: #fff;
+  background-color: #8ecae6 ;
+  color: black;
 }
 .name {
   display: false;
@@ -142,7 +144,7 @@ h3 {
   margin-left: 20px;
   bottom: 10px;
   padding: 320px 0px 50px;
-  width: 350px;
+  width: 360px;
   background-color: #f7e0c1;
 }
 
@@ -162,12 +164,10 @@ If your SVG element lands in the same position regardless of whether it's in rel
 .info {
   left: 5%;
   height: 100%;
-  overflow-y: auto;
-  padding-left: 20px;
-  padding-right: 7px;
-  padding: 0px 30px 50px;
+  overflow-y: auto; 
+  padding: 5px 40px 15px;
+  
 }
-
 
 .mugshot .logo {
   margin: -23px;
@@ -221,51 +221,91 @@ If your SVG element lands in the same position regardless of whether it's in rel
   background-size: cover !important;
 }
 
-
 .social.twitter:before {
   background: url("https://cdn3.iconfinder.com/data/icons/social-media-2026/60/Socialmedia_icons_Twitter-07-128.png") center no-repeat;
 }
 
+.social.twitter:hover:before {
+  background: url("images/twittercolor.png") center no-repeat;
+}
+
 .social.linked-in:before {
-  background: url("https://cdn3.iconfinder.com/data/icons/social-media-2026/60/Socialmedia_icons_LinkedIn-128.png") center no-repeat;
+  background: url("images/linkedin.png") center no-repeat;
 }
 
 .social.linked-in:hover:before {
   background: url("images/linkedincolor.png") center no-repeat;
 }
 
+.social.github:before {
+  background: url("images/git.png") center no-repeat;
+}
+
+.social.github:hover:before {
+  background: url("images/gitcolor.png") center no-repeat;
+  scale: 1.1;
+}
+
+/* .flag.england:before {
+  background: url("images/england.png") center no-repeat;
+  opacity: 0.3;
+}
 
 .flag.poland:before {
   background: url("images/poland.png") center no-repeat;
-  scale: 1.4;
-}
+  opacity: 0.3;
+} */
 
-.flag.poland.active:before {
+/* 
+.flag.germany:before {
   background: url("images/poland.png") center no-repeat;
-  scale: 1.4;
-  border: 2px solid black;
+  opacity: 0.3;
 }
 
+.flag.netherlands:before {
+  background: url("images/poland.png") center no-repeat;
+  opacity: 0.3;
+} */
 
-.flag{
-  padding-left: 70px;
-  margin-bottom: 30px;
-  margin-top: 10px;
-  
+.languages img{
+  scale: 1.1; 
 }
 
-.flag:before {
+.languages img.active {
+  opacity: 1;
+  height: 60px;
+  width: 60px;
+  margin-top: -10px; 
+  margin-right: 10px;
+}
+
+.languages img:not(.active){
+  opacity: 0.6;
+  height: 60px;
+  width: 60px;
+  margin-top: -10px; 
+  margin-right: 10px;
+}
+
+.job:after {
   content: "";
-  /* display: false; */
   position: absolute;
-  /* margin: false; */
-  top: 5px;
-  left: 10px;
-  /* right: false; */
-  /* bottom: false; */
-  height: 29px;
+  top: -25px;
+  left: 330px;
+  height: 35px;
   width: 35px;
+  background-size: cover !important;
 }
+
+.rela-block.job.accenture:after {
+  background: url("images/accenture.png") center no-repeat;
+}
+
+
+
+/* .a.flag {
+  height: 64px;
+} */
 
 .side-header {
   font-family: 'Open Sans';
@@ -276,6 +316,7 @@ If your SVG element lands in the same position regardless of whether it's in rel
   margin: 30px auto 10px;
   padding-bottom: 5px;
 }
+
 .side-header:after{
   content: "";
   display: block;
@@ -295,16 +336,17 @@ If your SVG element lands in the same position regardless of whether it's in rel
   height: 69%;
   position: relative;
 }
+
 .content-container > * {
   margin: 0 auto 25px;
-
 }
 .content-container > h3 {
   margin: 0 auto 5px;
 }
 .content-container > p.long-margin {
-  margin: 0 auto 50px;
-
+  margin: 0 auto 20px;
+  text-align: center;
+  font-weight: 500;
 }
 .title {
   width: 80%;
@@ -319,7 +361,8 @@ If your SVG element lands in the same position regardless of whether it's in rel
 }
 
 .greyed {
-  background-color: #ddd;
+  background-color: #8ecae6;
+  color: white;
   width: 100%;
   max-width: 580px;
   text-align: center;
@@ -340,6 +383,7 @@ If your SVG element lands in the same position regardless of whether it's in rel
     line-height: 28px;
     background-size: cover;
     margin-top: 0px;
+
   }
 
   .page{
@@ -354,6 +398,7 @@ If your SVG element lands in the same position regardless of whether it's in rel
     overflow-x: hidden;
     height: 75%;
     position: relative;
+    padding: 23px 20px 51px; 
   }
 
   .name {

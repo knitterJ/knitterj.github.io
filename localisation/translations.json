@@ -1,10 +1,27 @@
 {
     "en": {
-        "title": "Wow! it works!",
-        "description": ""
+        "sidebar": {
+            "languages": "Languages"
+        }
     },
     "pl": {
-        "title": "it's polska!", 
-        "description": ""
+        "sidebar": {
+            "languages": "Języki"
+        }
+    },
+    "es": {
+        "sidebar": {
+            "languages": "Idiomas"
+        }
+    },
+    "de": {
+        "sidebar": {
+            "languages": "Sprache"
+        }
+    },
+    "nl": {
+        "sidebar": {
+            "languages": "Talen"
+        }
     }
 }
