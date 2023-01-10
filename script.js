@@ -17,7 +17,6 @@ fetch('localisation/translations.json')
     // default values
     languages.innerHTML = localisationData.en.sidebar.languages;
     
-
     relaBlockFlag.forEach(flag => {
         // Add a click event listener to each flag
         flag.addEventListener('click', function() {

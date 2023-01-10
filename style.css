@@ -409,4 +409,17 @@ If your SVG element lands in the same position regardless of whether it's in rel
     font-weight: 100;
     line-height: 48px;
   }
+  
+  .social.twitter:active:before {
+    background: url("images/twittercolor.png") center no-repeat;
+  }
+  
+  .social.linked-in:active:before {
+    background: url("images/linkedincolor.png") center no-repeat;
+  }
+  
+  .social.github:active:before {
+    background: url("images/gitcolor.png") center no-repeat;
+    scale: 1.1;
+  }
 }
