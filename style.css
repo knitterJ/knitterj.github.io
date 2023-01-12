@@ -112,7 +112,7 @@ h3 {
 
 .top-bar {
   height: 220px;
-  background-color: #8ecae6 ;
+  background-color: #56ccf2;
   color: black;
 }
 .name {
@@ -246,6 +246,15 @@ If your SVG element lands in the same position regardless of whether it's in rel
   scale: 1.1;
 }
 
+.social.stack:before {
+  background: url("images/stack.png") center no-repeat;
+}
+
+.social.stack:hover:before {
+  background: url("images/stackcolor.png") center no-repeat;
+  scale: 1.1;
+}
+
 /* .flag.england:before {
   background: url("images/england.png") center no-repeat;
   opacity: 0.3;
@@ -361,8 +370,8 @@ If your SVG element lands in the same position regardless of whether it's in rel
 }
 
 .greyed {
-  background-color: #8ecae6;
-  color: white;
+  background-color: #56ccf2;
+  color: black;
   width: 100%;
   max-width: 580px;
   text-align: center;
@@ -410,16 +419,20 @@ If your SVG element lands in the same position regardless of whether it's in rel
     line-height: 48px;
   }
   
-  .social.twitter:active:before {
+  .social.twitter:active {
     background: url("images/twittercolor.png") center no-repeat;
   }
   
-  .social.linked-in:active:before {
+  .social.linked-in:active {
     background: url("images/linkedincolor.png") center no-repeat;
   }
   
-  .social.github:active:before {
+  .social.github:active {
     background: url("images/gitcolor.png") center no-repeat;
     scale: 1.1;
   }
+  .rela-block.job.accenture:after {
+    background: none;
+  }
+  
 }
