@@ -13,7 +13,9 @@ body {
   line-height: 28px;
   background-size: cover;
   margin-top: 0px;
-  overflow: hidden;
+  overflow: auto;
+
+  
 }
 
 .rela-block {
@@ -111,10 +113,13 @@ h3 {
 }
 
 .top-bar {
+  position: relative;
   height: 220px;
   background-color: #56ccf2;
   color: black;
 }
+
+
 .name {
   display: false;
   position: absolute;
@@ -306,15 +311,19 @@ If your SVG element lands in the same position regardless of whether it's in rel
   background-size: cover !important;
 }
 
-.rela-block.job.accenture:after {
-  background: url("images/accenture.png") center no-repeat;
+.acc-container  {
+  display: flex;
+  align-items: center;
+  height: 10px;
+  margin-top: 25px !important;
 }
 
-
-
-/* .a.flag {
-  height: 64px;
-} */
+.rela-block-job-accenture {
+  background: url("images/accenture.png") center no-repeat;
+  content: "";
+  padding: 20px;
+  margin-bottom: 10px;
+}
 
 .side-header {
   font-family: 'Open Sans';
@@ -347,10 +356,11 @@ If your SVG element lands in the same position regardless of whether it's in rel
 }
 
 .content-container > * {
-  margin: 0 auto 25px;
+  margin: 20px auto 5px;
 }
 .content-container > h3 {
-  margin: 0 auto 5px;
+  /* margin between the jobs  */
+  margin-top: 20px;
 }
 .content-container > p.long-margin {
   margin: 0 auto 20px;
@@ -434,5 +444,27 @@ If your SVG element lands in the same position regardless of whether it's in rel
   .rela-block.job.accenture:after {
     background: none;
   }
+
+  /* The download button */
+  
   
 }
+
+.top-bar-download {
+  background: url("images/download.png") center no-repeat;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  line-height: 100px;
+  margin: 5px;
+  position: absolute;
+  right: 5px; 
+  top: 5px;
+  text-align: center;
+  display: inline-block;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  text-transform: uppercase;
+  z-index: 1;
+  }
