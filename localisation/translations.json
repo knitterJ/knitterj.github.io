@@ -1,12 +1,16 @@
 {
     "en": {
         "sidebar": {
+            "expertise": "Expertise",
             "languages": "Languages"
+            
         }
     },
     "pl": {
         "sidebar": {
-            "languages": "Języki"
+            "expertise": "Kluczowe umiejętności",
+            "languages": "Języki",
+            "education": "Edukacja"
         }
     },
     "es": {

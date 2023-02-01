@@ -2,6 +2,9 @@
 const relaBlockFlag = document.querySelectorAll('.languages img');
 let attr = document.querySelectorAll('a[language]');
 let languages = document.querySelector("p.rela-block.caps.side-header.languages-top-bar");
+let expertise = document.querySelector("p.rela-block.caps.side-header.expertise-top-bar");
+
+
 let unis = document.querySelector("p.rela-block.caps.side-header.languages");
 
 // let profile = document.querySelector("rela-block.caps.greyed.profile");
@@ -16,6 +19,7 @@ fetch('localisation/translations.json')
 
     // default values
     languages.innerHTML = localisationData.en.sidebar.languages;
+    expertise.innerHTML = localisationData.en.sidebar.expertise;
     
     relaBlockFlag.forEach(flag => {
         // Add a click event listener to each flag
@@ -29,6 +33,7 @@ fetch('localisation/translations.json')
         // zrobimy to na podstawie atrybutu <img language="en">
         let attr = document.querySelector('.active').getAttribute("language");
         languages.textContent = localisationData[attr].sidebar.languages;
+        expertise.textContent = localisationData[attr].sidebar.expertise;
         //tutaj dodawaj dalszy content typu
         });
     });
