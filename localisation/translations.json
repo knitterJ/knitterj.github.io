@@ -1,31 +1,47 @@
 {
     "en": {
-        "sidebar": {
-            "expertise": "Expertise",
-            "languages": "Languages"
-            
-        }
+    "sidebar": {
+    "expertise": "Expertise",
+    "education": "Education",
+    "languages": "Languages",
+    "interests": "Interests",
+    "teaching": "• Teaching: I deliver effective language courses, based on self-made teaching methodology"
+    }
     },
     "pl": {
-        "sidebar": {
-            "expertise": "Kluczowe umiejętności",
-            "languages": "Języki",
-            "education": "Edukacja"
-        }
+    "sidebar": {
+    "expertise": "Kluczowe umiejętności",
+    "education": "Edukacja",
+    "languages": "Języki",
+    "interests": "Zainteresowania",
+    "teaching": "• Nauczanie: Prowadzę efektywne kursy językowe, oparte na autorskiej metodyce nauczania"
+    }
     },
     "es": {
-        "sidebar": {
-            "languages": "Idiomas"
-        }
+    "sidebar": {
+    "expertise": "Experiencia",
+    "education": "Educación",
+    "languages": "Idiomas",
+    "interests": "Aficiones",
+    "teaching": "• Enseñanza: Entrego cursos de idiomas efectivos, basados en mi propia metodología de enseñanza"
+    }
     },
     "de": {
-        "sidebar": {
-            "languages": "Sprache"
-        }
+    "sidebar": {
+    "expertise": "Kompetenzen",
+    "education": "Bildung",
+    "languages": "Sprachen",
+    "interests": "Interessen",
+    "teaching": "• Unterricht: Ich biete wirksame Sprachkurse auf Basis meiner eigenen Lehrmethode an"
+    }
     },
     "nl": {
-        "sidebar": {
-            "languages": "Talen"
-        }
+    "sidebar": {
+    "expertise": "Expertise",
+    "education": "Opleiding",
+    "languages": "Talen",
+    "interests": "Interesses en passies",
+    "teaching": "• Onderwijzen: Ik bied effectieve taalcursussen aan op basis van mijn eigen onderwijsmethodologie"
     }
-}
+    }
+    }

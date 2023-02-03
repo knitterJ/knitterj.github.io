@@ -1,9 +1,18 @@
-
 const relaBlockFlag = document.querySelectorAll('.languages img');
 let attr = document.querySelectorAll('a[language]');
-let languages = document.querySelector("p.rela-block.caps.side-header.languages-top-bar");
-let expertise = document.querySelector("p.rela-block.caps.side-header.expertise-top-bar");
 
+const expertise = document.querySelector("p.rela-block.caps.side-header.expertise-top-bar");
+const education = document.querySelector("p.rela-block.caps.side-header.education-top-bar");
+const languages = document.querySelector("p.rela-block.caps.side-header.languages-top-bar");
+const interests = document.querySelector("p.rela-block.caps.side-header.interests-top-bar");
+const teaching = document.querySelector("p.rela-block.list-thing.teaching");
+const economy = document.querySelector("p.rela-block.list-thing.economy");
+
+
+function insertTeachingText(text) {
+  text = text.replace(/\n/g, '<br>');
+  document.getElementById("teaching").innerHTML = text;
+}
 
 let unis = document.querySelector("p.rela-block.caps.side-header.languages");
 
@@ -13,13 +22,25 @@ let unis = document.querySelector("p.rela-block.caps.side-header.languages");
 
 
 fetch('localisation/translations.json')
-  .then(response => response.json())
+  .then(response => {
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return response.json();
+  })
   .then(data => {
-    let localisationData = data;
+    const localisationData = data;
 
     // default values
     languages.innerHTML = localisationData.en.sidebar.languages;
     expertise.innerHTML = localisationData.en.sidebar.expertise;
+    education.innerHTML = localisationData.en.sidebar.education;
+    interests.innerHTML = localisationData.en.sidebar.interests;
+    teaching.innerHTML = localisationData.en.sidebar.teaching;
+    economy.innerHTML = localisationData.en.sidebar.economy;
+
+
+
     
     relaBlockFlag.forEach(flag => {
         // Add a click event listener to each flag
@@ -34,7 +55,12 @@ fetch('localisation/translations.json')
         let attr = document.querySelector('.active').getAttribute("language");
         languages.textContent = localisationData[attr].sidebar.languages;
         expertise.textContent = localisationData[attr].sidebar.expertise;
+        education.textContent = localisationData[attr].sidebar.education;
+        interests.textContent = localisationData[attr].sidebar.interests;
+        teaching.textContent = localisationData[attr].sidebar.teaching;
+        economy.textContent = localisationData[attr].sidebar.economy;
         //tutaj dodawaj dalszy content typu
         });
     });
-});
+})
+.catch(error => console.error(error));
