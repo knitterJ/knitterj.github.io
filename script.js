@@ -40,8 +40,6 @@ fetch('localisation/translations.json')
     economy.innerHTML = localisationData.en.sidebar.economy;
 
 
-
-    
     relaBlockFlag.forEach(flag => {
         // Add a click event listener to each flag
         flag.addEventListener('click', function() {

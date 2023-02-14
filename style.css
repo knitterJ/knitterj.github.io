@@ -169,7 +169,8 @@ If your SVG element lands in the same position regardless of whether it's in rel
   left: 5%;
   height: 100%;
   overflow-y: auto; 
-  padding: 5px 40px 15px;
+  padding-right: 10px;
+  padding-left: 30px;
   letter-spacing: 0px;
 }
 
@@ -367,7 +368,7 @@ If your SVG element lands in the same position regardless of whether it's in rel
 .content-container {
   margin-left: 390px;
   width: calc(95% - 350px);
-  padding: 25px 40px 10px;
+  padding: 25px 40px 0px;
   overflow-x: hidden;
   height: 69%;
   position: relative;
@@ -430,11 +431,10 @@ If your SVG element lands in the same position regardless of whether it's in rel
   .content-container {
     margin-left: 390px;
     width: calc(95% - 350px);
-    padding: 25px 40px 50px;
+    padding: 25px 20px 5px;
     overflow-x: hidden;
-    height: 75%;
+    height: 80%;
     position: relative;
-    padding: 23px 20px 51px; 
   }
 
   .name {
