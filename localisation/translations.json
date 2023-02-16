@@ -1,48 +1,121 @@
-{
-    "en": {
-    "sidebar": {
-    "expertise": "Expertise",
-    "education": "Education",
-    "languages": "Languages",
-    "interests": "Interests",
-    "teaching": "• Teaching: I deliver effective language courses, based on self-made teaching methodology",
-    "economy" : "• Economy and personal finances"
-    }
-    },
-    "pl": {
-    "sidebar": {
-    "expertise": "Kluczowe umiejętności",
-    "education": "Edukacja",
-    "languages": "Języki",
-    "interests": "Zainteresowania",
-    "teaching": "• Nauczanie: Prowadzę efektywne kursy językowe, oparte na autorskiej metodyce nauczania"
-    }
-    },
-    "es": {
-    "sidebar": {
-    "expertise": "Experiencia",
-    "education": "Educación",
-    "languages": "Idiomas",
-    "interests": "Aficiones",
-    "teaching": "• Enseñanza: Entrego cursos de idiomas efectivos, basados en mi propia metodología de enseñanza"
-    }
-    },
-    "de": {
-    "sidebar": {
-    "expertise": "Kompetenzen",
-    "education": "Bildung",
-    "languages": "Sprachen",
-    "interests": "Interessen",
-    "teaching": "• Unterricht: Ich biete wirksame Sprachkurse auf Basis meiner eigenen Lehrmethode an"
-    }
-    },
-    "nl": {
-    "sidebar": {
-    "expertise": "Expertise",
-    "education": "Opleiding",
-    "languages": "Talen",
-    "interests": "Interesses en passies",
-    "teaching": "• Onderwijzen: Ik bied effectieve taalcursussen aan op basis van mijn eigen onderwijsmethodologie"
-    }
-    }
+    {
+        "en": {
+        "main":{
+            "title": "Software Engineer",
+            "profile": "Hi, I'm Jacob 👋 <br> I'm passionate about creating websites, apps and systems, that are visually appealing and user-friendly. <br> Within few years of working in IT industry, I achieved comprehensive understanding of the core tools that provide enaging and flawless user experience.",
+            "accpos": "IT Consultant",
+            "accdescr": "• I was assisting in development process of web application designed in Angular and Java Spring<br>• I was responsible for successful implementation of SAP E-Commerce platform for one of the top 100 companies market cap based",
+            "atospos": "Network Admin",
+            "atosdescr": "• I was part of the team that provides 99,999% uptime (VPS, VMs)", 
+            "laureatepos": "Junior front end developer",
+            "laureatedescr": "• Online courses creation, based on HTML and CSS, nested in Blackboard platform,<br>• JavaScript with a strong focus on automation of actions performed via Web Browser and UI"
+        },
+        "sidebar": {
+            "intro":"Remote job offers only: <br> • 6 months: UTC+7<br>(Thailand) <br>• 6 months: UTC+1 (Poland/Netherlands/Spain)",
+            "expertise": "Expertise",
+            "education": "Education",
+            "put":"• Poznan University of Technology, <br> Bsc in Computer science",
+            "lpa":"• The University of Las Palmas de Gran Canaria, <br> Erasmus exchange",
+            "gdansk":"• Gdansk University of Technology,<br> BSc in Engineering", 
+            "languages": "Languages",
+            "interests": "Interests",
+            "teaching": "• Teaching: I deliver effective language courses, based on self-made teaching methodology",
+            "economy" : "• Economy and personal finances"
+            }
+        },
+        "pl": {
+            "main":{
+                "title": "Inżynier Oprogramowania",
+                "profile": "Cześć, jestem Jacob 👋 <br> Pasjonuję się tworzeniem stron internetowych, aplikacji i systemów, które są atrakcyjne wizualnie i przyjazne dla użytkownika. <br> W ciągu kilku lat pracy w branży IT osiągnąłem wszechstronną wiedzę na temat podstawowych narzędzi zapewniających najwyższą jakość świadczonych usług.",
+                "accpos": "Konsultant IT",
+                "accdescr": "• Brałem aktywny udział w procesie rozwoju aplikacji webowej zaprojektowanej w Angular i Java Spring<br> • Byłem odpowiedzialny za pomyślne wdrożenie platformy SAP E-Commerce dla jednej ze 100 największych firm świata, w oparciu o kapitalizację rynkową",
+                "atospos": "Administrator sieci",
+                "atosdescr": "• Byłem częścią zespołu, który zapewnia 99,999% czasu pracy (VPS, VMs)",                "laureatepos": "Junior front end developer",
+                "laureatedescr": "• Tworzenie kursów online opartych na HTML i CSS, zagnieżdżonych w platformie Blackboard,<br>• JavaScript ze szczególnym naciskiem na automatyzację działań wykonywanych za pośrednictwem przeglądarki internetowej i interfejsu użytkownika"
+                },
+            "sidebar": {
+                "intro":"<p>Wyłącznie oferty pracy zdalnej:</p>• 6 miesięcy: UTC+7 <br>(Tajlandia) <br>• 6 miesięcy: UTC+1<br> (Polska/Holandia/Hiszpania)",
+                "expertise": "Kluczowe umiejętności",
+                "education": "Edukacja",
+                "put": "• Politechnika Poznańska, <br> Informatyka",
+                "lpa": "• Uniwersytet Las Palmas de Gran Canaria, <br> Wymiana Erasmus",
+                "gdansk": "• Politechnika Gdańska, <br> Inżynieria Środowiska",
+                "languages": "Języki",
+                "interests": "Zainteresowania",
+                "teaching": "• Nauczanie: Prowadzę efektywne kursy językowe, oparte na autorskiej metodyce nauczania",
+                "economy" : "• Ekonomia i finanse osobiste"
+                }
+        },
+        "es": {
+            "main":{
+                "title": "Ingeniero de software",
+                "profile": "Hola, soy Jacob 👋 <br> Me apasiona crear sitios web, aplicaciones y sistemas que sean visualmente atractivos y fáciles de usar. <br> Durante varios años de trabajo en la industria de IT, he adquirió un conocimiento de las herramientas básicas que garantizan la más alta calidad de los servicios prestados",
+                "accpos": "Consultor IT",
+                "accdescr": "• Asistí en el proceso de desarrollo de la aplicación web diseñada en Angular y Java Spring<br>• Fui responsable de la implementación exitosa de la plataforma SAP E-Commerce para una de las 100 empresas más importantes del mundo, basada en la capitalización de mercado",
+                "atospos": "Administrador/a de redes",
+                "atosdescr": "• Formé parte del equipo que proporciona un tiempo de actividad del 99,999% (VPS, VMs)",
+                "laureatepos": "Desarrollador/a front end junior",
+                "laureatedescr": "• Creación de cursos en línea basados en HTML y CSS, integrados en la plataforma Blackboard,<br>• JavaScript con un fuerte enfoque en la automatización de acciones realizadas a través del navegador web y la interfaz de usuario"
+            },
+            "sidebar": {
+                "intro":"<p>Solo ofertas de trabajo remoto:</p>• 6 meses: UTC+7 <br>(Tailandia) <br>• 6 meses: UTC+1<br> (Polonia/Países Bajos/España)",
+                "expertise": "Experiencia",
+                "education": "Educación",
+                "put": "• Universidad de Tecnología de Poznań, <br> Grado en Computación",
+                "lpa": "• Universidad de Las Palmas de Gran Canaria, <br> Intercambio Erasmus",
+                "gdansk": "• Universidad de Tecnología de Gdansk, <br> Grado en Ingeniería",
+                "languages": "Idiomas",
+                "interests": "Aficiones",
+                "teaching": "• Enseñanza: Entrego cursos de idiomas efectivos, basados en mi propia metodología de enseñanza",
+                "economy" : "• Economía y finanzas personales"
+                }
+        },
+        "de": {
+            "main":{
+                "title": "Software-Ingenieur",
+                "profile": "Hallo, ich bin Jacob 👋 <br> Ich bin leidenschaftlich, Websites, Anwendungen und Systeme zu erstellen, die benutzerfreundlich sind. <br> Während meiner mehrjährigen Tätigkeit in der IT-Branche habe ich umfassendes Wissen über die grundlegenden Werkzeuge erworben, um die höchste Qualität der erbrachten Dienstleistungen zu gewährleisten.",
+                "accpos": "IT Berater",
+                "accdescr": "• Ich habe beim Entwicklungsprozess der Webanwendung mitgewirkt, die in Angular und Java Spring entworfen wurde<br>• Ich war verantwortlich für die erfolgreiche Implementierung der SAP E-Commerce-Plattform für eines der 100 größten Unternehmen der Welt, basierend auf der Kapitalisierung des Marktes",
+                "atospos": "Netzwerkadministrator/in",
+                "atosdescr": "• Ich war Teil des Teams, das eine Betriebszeit von 99,999% (VPS, VMs) gewährleistet",
+                "laureatepos": "Junior-Front-End-Entwickler/in",
+                "laureatedescr": "• Erstellung von Online-Kursen auf der Basis von HTML und CSS, die in die Blackboard-Plattform integriert sind,<br>• JavaScript mit einem starken Fokus auf die Automatisierung von Aktionen, die über den Webbrowser und die Benutzeroberfläche ausgeführt werden."
+            },
+            "sidebar": {
+            "intro": "Nur Remote-Stellenangebote:</p>• 6 Monate: UTC+7 <br>(Thailand) <br>• 6 Monate: UTC+1<br> (Polen/Niederlande/Spanien)",    
+            "expertise": "Kompetenzen",
+            "education": "Bildung",
+            "put": "• Technische Universität Poznań, <br> BSc in Informatik",
+            "lpa": "• Universität Las Palmas de Gran Canaria, <br> Erasmus-Austausch",
+            "gdansk": "• Technische Universität Gdansk, <br> BSc in Ingenieurwissenschaften",
+            "languages": "Sprachen",
+            "interests": "Interessen",
+            "teaching": "• Unterricht: Ich biete wirksame Sprachkurse auf Basis meiner eigenen Lehrmethode an",
+            "economy" : "• Wirtschaft und persönliche Finanzen"
+            }
+        },
+        "nl": {
+            "main":{
+                "title": "Software-ingenieur",
+                "profile": "Hallo, ik ben Jacob 👋 <br> Ik ben gepassioneerd door het maken van websites, applicaties en systemen die visueel aantrekkelijk en gebruiksvriendelijk zijn. <br> Gedurende een aantal jaren in de IT-industrie heb ik uitgebreide kennis opgedaan van de basistools die de hoogste kwaliteit van de geleverde diensten garanderen.",
+                "accpos": "IT consultant",
+                "accdescr": "• Ik assisteerde bij het ontwikkelingsproces van de webapplicatie ontworpen in Angular en Java Spring<br>• Ik was verantwoordelijk voor de succesvolle implementatie van het SAP E-Commerce platform voor een van de top 100 bedrijven ter wereld, op basis van kapitalisatie van de markt",
+                "atospos": "Netwerkbeheerder",
+                "atosdescr": "• Ik maakte deel uit van het team dat een uptime van 99,999% (VPS, VM's) biedt",
+                "laureatepos": "Junior front-end ontwikkelaar",
+                "laureatedescr": "• Online cursussen op basis van HTML en CSS gemaakt en genest in het Blackboard-platform,<br>• JavaScript met een sterke focus op automatisering van acties uitgevoerd via de webbrowser en UI."
+            },
+            "sidebar": {
+            "intro": "Alleen vacatures op afstand:</p>• 6 maanden: UTC+7 <br>(Thailand) <br>• 6 maanden: UTC+1<br> (Polen/Nederland/Spanje)",
+            "expertise": "Expertise",
+            "education": "Opleiding",
+            "put":"• Technische Universiteit van Poznan, <br> Bsc in computerwetenschappen",
+            "lpa":"• Universiteit van Las Palmas de Gran Canaria, <br> Erasmus-programma",
+            "gdansk":"• Technische Universiteit van Gdansk,<br> Bachelor of Engineering",
+            "languages": "Talen",
+            "interests": "Interesses en passies",
+            "teaching": "• Onderwijzen: Ik bied effectieve taalcursussen aan op basis van mijn eigen onderwijsmethodologie",
+            "economy" : "• Economie en persoonlijke financiën"
+            }
+        }
     }
