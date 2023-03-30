@@ -1,7 +1,7 @@
 const relaBlockFlag = document.querySelectorAll('.languages img');
 let attr = document.querySelectorAll('a[language]');
 
-const intro = document.querySelector("p.rela-block.intro");
+// const intro = document.querySelector("p.rela-block.intro");
 const expertise = document.querySelector("p.rela-block.caps.side-header.expertise-top-bar");
 const education = document.querySelector("p.rela-block.caps.side-header.education-top-bar");
 const put = document.querySelector("p.rela-block.list-thing.put");
@@ -54,7 +54,7 @@ fetch('localisation/translations.json')
 
     
     // default values
-    intro.innerHTML = localisationData.en.sidebar.intro;
+    // intro.innerHTML = localisationData.en.sidebar.intro;
     languages.innerHTML = localisationData.en.sidebar.languages;
     expertise.innerHTML = localisationData.en.sidebar.expertise;
     education.innerHTML = localisationData.en.sidebar.education;
@@ -86,7 +86,7 @@ fetch('localisation/translations.json')
         //podepnij pod konkretny obrazek (flag) i kliknięcie, konkretne zachowanie
         // zrobimy to na podstawie atrybutu <img language="en">
         let attr = document.querySelector('.active').getAttribute("language");
-        intro.innerHTML = localisationData[attr].sidebar.intro;
+        // intro.innerHTML = localisationData[attr].sidebar.intro;
         languages.innerHTML = localisationData[attr].sidebar.languages;
         expertise.innerHTML = localisationData[attr].sidebar.expertise;
         education.innerHTML = localisationData[attr].sidebar.education;

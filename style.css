@@ -135,6 +135,10 @@ h3 {
   color: black;
 }
 
+.contact-top-bar {
+  padding-bottom: 100px;
+  color: black;
+}
 
 .name {
   display: false;
@@ -179,8 +183,20 @@ If your SVG element lands in the same position regardless of whether it's in rel
 .mugshot {
   position: absolute;
   top: 50px;
-  left: 70px;
-} 
+  left: 40px;
+  padding: 3.5px;
+}
+
+.logo{
+  position: absolute;
+  clip-path: polygon(0 20%, 20% 0, 100% 0, 100% 80%, 80% 100%, 0 100%);
+  width: 160px; 
+  height: 240px; 
+  scale: 1.1;
+  margin-left: 40px; 
+  
+  
+}
 
 .info {
   left: 5%;
@@ -191,10 +207,13 @@ If your SVG element lands in the same position regardless of whether it's in rel
   letter-spacing: 0px;
 }
 
-.mugshot .logo {
-  margin: -23px;
+.basic-contact{
+  margin-bottom: 40px; 
+  margin-top: 30px;
+  line-height: 30px;
 }
-.logo {
+
+/* .logo {
   display: false;
   position: absolute;
   margin: false;
@@ -207,8 +226,8 @@ If your SVG element lands in the same position regardless of whether it's in rel
   color: #000;
   height: 250px;
   width: 250px;
-}
-.logo .logo-svg {
+} */
+/* .logo .logo-svg {
   height: 100%;
   width: 100%;
   stroke: #000;
@@ -226,12 +245,12 @@ If your SVG element lands in the same position regardless of whether it's in rel
   letter-spacing: 0px;
   font-weight: 400;
   line-height: 58.333333333333336px;
-}
+} */
 
 /* icons related styling */
 .social {
   padding-left: 60px;
-  margin-bottom: 50px;
+  margin-bottom: 50px;  
 }
 .social:before {
   content: "";
@@ -241,6 +260,8 @@ If your SVG element lands in the same position regardless of whether it's in rel
   height: 35px;
   width: 35px;
   background-size: cover !important;
+  scale: 1.15;
+  
 }
 
 .social.twitter:before {
@@ -367,8 +388,12 @@ If your SVG element lands in the same position regardless of whether it's in rel
   letter-spacing: 4px;
   font-weight: 600;
   line-height: 28px;
-  margin: 30px auto 10px;
+  margin: 10px auto 10px;
   padding-bottom: 5px;
+}
+
+.languages-top-bar{
+  margin-top: 25px;
 }
 
 .side-header:after{
