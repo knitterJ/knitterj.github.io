@@ -21,13 +21,6 @@ const atosdescr = document.querySelector("p.justified-atos");
 const laureatepos = document.querySelector("p.light-laureate");
 const laureatedescr = document.querySelector("p.justified-laureate");
 
-
-
-
-
-
-
-
 function insertTeachingText(text) {
   text = text.replace(/\\n/g, '<br>');
   document.getElementById("teaching").innerHTML = text;

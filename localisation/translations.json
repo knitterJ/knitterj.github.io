@@ -2,13 +2,14 @@
         "en": {
         "main":{
             "title": "Software Engineer",
-            "profile": "Hi, I'm Jacob 👋 <br> I'm passionate about creating websites, apps and systems, that are visually appealing and user-friendly. <br> Within few years of working in IT industry, I achieved comprehensive understanding of the core tools that provide enaging and flawless user experience.",
+            "profile": "Hi, I'm Jacob 👋 <br>I'm passionate about creating IT solutions, that are <br>reliable and user-friendly. <br> Within few years of working in IT industry, I achieved comprehensive understanding of the tools that provide engaging and flawless user experience.",
             "accpos": "IT Consultant",
-            "accdescr": "• I was assisting in development process of web application designed in Angular and Java Spring<br>• I was responsible for successful implementation of SAP E-Commerce platform for one of the top 100 companies market cap based",
+            "accdescr": "• Junior developer role in Scrum based web application development (Angular and Spring Boot)<br>• Successful implementation of SAP E-Commerce platform for major tobacco company",
             "atospos": "Network Admin",
-            "atosdescr": "• I was part of the team that provides 99,999% uptime (VPS, VMs)", 
+            "atosdescr": "• 2nd line technical support in German language<br>• Part of the team that provides 99,999% uptime (VPS, VMs)<br>", 
+            
             "laureatepos": "Junior front end developer",
-            "laureatedescr": "• Online courses creation, based on HTML and CSS, nested in Blackboard platform,<br>• JavaScript with a strong focus on automation of actions performed via Web Browser and UI"
+            "laureatedescr": "• Resolving technical issues with the direct impact on customers (Jira Service Management),<br>• Online courses creation, based on HTML and CSS, nested in Blackboard platform,<br>• JavaScript with a strong focus on automation of actions performed via Web Browser and UI"
         },
         "sidebar": {
             "intro":"Remote job offers only: <br> • 6 months: UTC+7<br>(Thailand) <br>• 6 months: UTC+1 (Poland/Netherlands/Spain)",
@@ -16,11 +17,11 @@
             "education": "Education",
             "put":"• Poznan University of Technology, <br> Bsc in Computer science",
             "lpa":"• The University of Las Palmas de Gran Canaria, <br> Erasmus exchange",
-            "gdansk":"• Gdansk University of Technology,<br> BSc in Engineering", 
+            "gdansk":"• Gdansk University of Technology,<br> BSc in Civil Engineering", 
             "languages": "Languages",
             "interests": "Interests",
-            "teaching": "• Teaching: I deliver effective language courses, based on self-made teaching methodology",
-            "economy" : "• Economy and personal finances"
+            "teaching": "• English and Spanish teacher",
+            "economy" : "• Economy, investing and personal finances"
             }
         },
         "pl": {
